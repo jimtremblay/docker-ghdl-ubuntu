@@ -1,6 +1,6 @@
 FROM ubuntu:14.04.4
 
-MAINTAINER Jim Tremblay
+MAINTAINER Jim Tremblay "jimtremblay@gmail.com"
 
 RUN apt-get update
 RUN apt-get dist-upgrade -y
