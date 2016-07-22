@@ -10,7 +10,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install software-properties-common
 RUN DEBIAN_FRONTEND=noninteractive add-apt-repository ppa:pgavin/ghdl
 RUN apt-get update
 # install everything need to compile vhdl sources
-RUN DEBIAN_FRONTEND=noninteractive apt-get -y install ghdl
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install ghdl make
 
 # create build directory where a volume will be mounted
 RUN mkdir /work
